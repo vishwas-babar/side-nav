@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>side nav bar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <button onclick="displaySideNav()" class="show-btn"><i class='bx bx-exit'></i></button>
+
+    <div class="side-container">
+        <div class="top">
+            <h3>CodingLab</h3>
+            <div onclick="hideNav()" class="icon-container">
+                <a href="#"><i class='bx bx-x'></i></a>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <ul>
+                <li>
+                    <i class='bx bxs-dashboard' ></i>
+                    <p>Dashboard</p>
+                </li>
+
+                <li>
+                    <i class='bx bx-link' ></i>
+                    <p>Shortcuts</p>
+                </li>
+
+                <li>
+                    <i class='bx bx-menu-alt-left' ></i>
+                    <p>Overview</p>
+                </li>
+
+                <li>
+                        <i class='bx bxs-calendar-event' ></i>
+                        <p>Event</p>
+                </li>
+
+                <li>
+                        <i class='bx bxs-help-circle' ></i>
+                        <p>About</p>
+                </li>
+
+                <li>
+                        <i class='bx bxs-calendar-event' ></i>
+                        <p>Servieces</p>
+                </li>
+
+                <li>
+                        <i class='bx bxs-contact' ></i>
+                        <p>Contact</p>
+                </li>
+
+                <li>
+                        <i class='bx bxs-objects-vertical-bottom'></i>
+                        <p>Feedback</p>
+                    
+                </li>
+
+                
+            </ul>
+
+            <div class="social-media">
+                <div class = "social-media-logo">
+                    <a href="https://twitter.com/Vishwas_babar_"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+                <div class = "social-media-logo">
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+
+                <div class = "social-media-logo">
+                    <a href="linkedin.com/in/vishwas-babar-6a2005229"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+
+                <div class = "social-media-logo">
+                    <a href="www.github.com/vishwas-babar"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
